@@ -1,5 +1,18 @@
-#div3 {
-	
+#imagem{
+	width: 30%;
+	height: 200px;
+	background: red;
+	position:relative;
+	margin-left:150px;
+	margin-bottom:-200px;
+}
+
+#texto {
+	width: 50%;
+	height: 200px;
+	background: blue;
+	position:relative;
+	margin-left: 600px;
 }
 
 #galeria {
