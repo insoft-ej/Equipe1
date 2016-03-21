@@ -1,4 +1,4 @@
-#imagem{
+#imagem1{
 	width: 30%;
 	height: 200px;
 	background: red;
@@ -7,7 +7,43 @@
 	margin-bottom:-200px;
 }
 
-#texto {
+#texto1 {
+	width: 50%;
+	height: 200px;
+	background: blue;
+	position:relative;
+	margin-left: 600px;
+}
+
+
+#imagem2{
+	width: 30%;
+	height: 200px;
+	background: red;
+	position:relative;
+	margin-left:700px;
+	margin-top: -200px;
+}
+
+#texto2 {
+	width: 50%;
+	height: 200px;
+	background: blue;
+	position:relative;
+	margin-left: 0px;
+}
+
+
+#imagem3{
+	width: 30%;
+	height: 200px;
+	background: red;
+	position:relative;
+	margin-left:150px;
+	margin-bottom:-200px;
+}
+
+#texto3 {
 	width: 50%;
 	height: 200px;
 	background: blue;
