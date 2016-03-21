@@ -1,7 +1,13 @@
+#imagem-topo{
+	background-color: green;
+	width: 744px;
+	height: 1052px;
+	background-image: url();
+	background-repeat: no-repeat;
+	
+}
+
 #imagem1{
-	width: 30%;
-	height: 200px;
-	background: red;
 	position:relative;
 	margin-left:150px;
 	margin-bottom:-200px;
@@ -17,11 +23,8 @@
 
 
 #imagem2{
-	width: 30%;
-	height: 200px;
-	background: red;
 	position:relative;
-	margin-left:700px;
+	margin-left:900px;
 	margin-top: -200px;
 }
 
@@ -35,9 +38,6 @@
 
 
 #imagem3{
-	width: 30%;
-	height: 200px;
-	background: red;
 	position:relative;
 	margin-left:150px;
 	margin-bottom:-200px;
