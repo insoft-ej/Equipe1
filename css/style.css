@@ -1,64 +1,118 @@
 *{
 	margin: 0;
 	padding: 0;
+
 }
 
-#imagem-topo{
+#logounb{
+	position:relative;
+	margin-left:1300px;
+	margin-bottom:0px;
+}
+#logoinsoft{
+	position:relative;
+	margin-left:30px;
+	margin-top:5px;
+}
+#facebookicon{
+	margin-bottom: 10px;
+	margin-left: 50px;
+}
+#twittericon{
+	margin-bottom: 10px;
+}
+
+header{
+		width:100%;
+		height: 65px;
+		background-color: ;
+		border-bottom:solid 2px;
+		
+
+}
+
+body{
+		font-family:Arial;
+		font-size:16px;
+}
+
+#logojiu{
 	text-align: center;
 	margin-bottom: 20px;
-	border-bottom: solid 5px #000;
+	border-bottom: solid 2px #000;
 	
 }
 
+
+
 #imagem1{
 	position:relative;
-	margin-left:150px;
+	left:535px;
 	margin-bottom:-200px;
-}
 
+}
+#titulo1{
+	text-align: center;
+}
 #texto1 {
-	width: 50%;
-	height: 200px;
-	background: blue;
+	width:600px ;
+	height:200px;
 	position:relative;
-	margin-left: 600px;
+	left: 900px;
+	font-size:20px;
+	
 }
 
 
 #imagem2{
 	position:relative;
-	margin-left:900px;
+	left:1100px;
 	margin-top: -200px;
 }
-
+#titulo2{
+	text-align: center;
+}
 #texto2 {
-	width: 50%;
+	width: 600px;
 	height: 200px;
-	background: blue;
+	background: ;
 	position:relative;
-	margin-left: 0px;
+	left: 300px;
+	font-size:20px;
 }
 
 
 #imagem3{
 	position:relative;
-	margin-left:150px;
+	left:350px;
 	margin-bottom:-200px;
 }
-
-#texto3 {
-	width: 50%;
-	height: 200px;
-	background: blue;
+#titulo3{
+	text-align: center;
+}
+#facebook{
 	position:relative;
-	margin-left: 600px;
+	left: 230px;
+	bottom: 40px;
+	float:0;
+}
+#texto3 {
+	width:600px ;
+	height: 200px;
+	position:relative;
+	left: 900px;
+	font-size:20px;
 }
 
 #galeria {
 	width: 100%;
 	height: 200px;
-	background: #000;
-	margin-bottom: 10px;
+	background: ;
+	border-bottom:solid 2px;
+	border-top:solid 2px;
+}
+#jiu1{
+	margin-left:350px;
 }
 
 footer{
