@@ -3,12 +3,7 @@
 	padding: 0;
 
 }
-section{
-		width:947px;
-		height:auto;
-		background:#fff;
-		margin: 0 auto 0 auto;
-	}
+
 
 #logounb{
 	position:relative;
@@ -33,28 +28,36 @@ header{
 		height: 65px;
 		background-color: ;
 		border-bottom:solid 2px;
-		
-
+		transition: background-color 0.5s ease;
 }
-
+header:hover{
+	background-color:nd;
+}
+section{
+		width:947px;
+		height:auto;
+		background:#fff;
+		margin: 0 auto 0 auto;
+}
 body{
 		font-family:Arial;
 		font-size:16px;
 }
-
+#audio{
+	position:relative;
+	left: -455px;
+	opacity: 0.0;
+}
 #logojiu{
 	text-align: center;
 	margin-bottom: 20px;
 	border-bottom: solid 2px #000;
-	
+	filter:drop-shadow(2,3 black);
 }
-
-
 
 #imagem1{
 	padding-left:180px;
 	margin-bottom:-300px;
-
 }
 #titulo1{
 	text-align: center;
@@ -66,10 +69,8 @@ body{
 	font-size:15px;
 	background-color:;
 	text-align: center;
-	
+
 }
-
-
 #imagem2{
 	position:relative;
 	left:610px;
@@ -87,17 +88,13 @@ body{
 	font-size:15px;
 	text-align: center;
 }
-
-#imagem3{
-	
+#imagem3{	
 	padding-left:160px;
 	margin-bottom:-300px;
 }
 #titulo3{
 	text-align: center;
 }
-
-
 #texto3 {
 	width:400px ;
 	height:200px;
@@ -111,8 +108,10 @@ body{
 	width: 100%;
 	height: 200px;
 	background: ;
+	padding:0;
 	border-bottom:solid 2px;
 	border-top:solid 2px;
+	opacity: 0.3;
 }
 #atleticajiu{
 	padding:0px;
@@ -123,4 +122,9 @@ footer{
 	border-top: solid 2px #aaa;
 	text-align: center;
 	padding: 30px;
+}
+#ryulogo{
+	position:relative;
+	left:50px;
+	opacity: 1	;
 }
