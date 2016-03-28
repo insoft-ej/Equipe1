@@ -6,9 +6,9 @@
 
 
 #logounb{
-	position:relative;
-	left: 1500px;
-	margin-bottom:0px;
+	float:right;
+	margin-top:10px;
+	margin-right: 20px;
 }
 #logoinsoft{
 	position:relative;
