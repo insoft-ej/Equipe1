@@ -17,9 +17,10 @@ section{
 }
 #logoinsoft{
 	position:relative;
-	left:30px;
+	left:10px;
 	margin-top:5px;
 }
+
 #facebookicon{
 	margin-bottom: 10px;
 	margin-left: 50px;
@@ -31,7 +32,6 @@ section{
 header{
 		width:100%;
 		height: 65px;
-		background-color: ;
 		border-bottom:solid 2px;
 		
 
@@ -42,24 +42,47 @@ body{
 		font-size:16px;
 }
 
-#logojiu{
-	text-align: center;
-	margin-bottom: 20px;
+#logojiuDiv{
+	position: relative;
 	border-bottom: solid 2px #000;
-	
+	margin-bottom: 20px;
+	padding-top: 20px
 }
 
+#logojiuImg{
+	background-image:url(../img/logo.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: relative;
+	width: 300px;
+	height: 300px;
+	left: 100px;
 
+}
 
-#imagem1{
+#logojiuTitulo{
+	font-family: "COURIER", 'Verdana', arial;
+	font-size: 70px;
+	position: absolute;
+	left: 500px;
+	bottom: 150px;
+}
+#logojiuSubTitulo{
+	font-size: 30px;
+	position: absolute;
+	left: 630px;
+	bottom: 100px;
+}
+
+#quemSomosImagem{
 	padding-left:180px;
 	margin-bottom:-300px;
 
 }
-#titulo1{
+#quemSomosTitulo{
 	text-align: center;
 }
-#texto1 {
+#quemSomosTexto {
 	width:400px ;
 	height:200px;
 	margin-left:480px;
@@ -70,15 +93,15 @@ body{
 }
 
 
-#imagem2{
+#nossaHistoriaImagem{
 	position:relative;
 	left:610px;
 	margin-top: -200px;
 }
-#titulo2{
+#nossaHistoriaTitulo{
 	text-align: center;
 }
-#texto2 {
+#nossaHistoriaTexto {
 	width:400px;
 	height: 200px;
 	background: ;
@@ -88,17 +111,17 @@ body{
 	text-align: center;
 }
 
-#imagem3{
+#contatoImagem{
 	
 	padding-left:160px;
 	margin-bottom:-300px;
 }
-#titulo3{
+#contatoTitulo{
 	text-align: center;
 }
 
 
-#texto3 {
+#contatoTexto{
 	width:400px ;
 	height:200px;
 	margin-left:480px;
@@ -118,6 +141,22 @@ body{
 	padding:0px;
 	margin-left: 0px;
 }
+
+#fotos{
+	padding: 20px;
+	text-align: center;
+}
+
+#fotos p{
+	font-size: 20px;
+	font-family: "COURIER", 'Verdana', arial;
+
+}
+
+.foto{
+	border-radius: 40px ;
+}
+
 
 footer{
 	border-top: solid 2px #aaa;
